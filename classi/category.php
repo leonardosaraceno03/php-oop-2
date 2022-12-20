@@ -2,13 +2,13 @@
 class category
 {
     public $nome;
-    // public $icona;
+    public $icona;
 
     public function __construct(
-        String $nome
-        // String $icona
+        String $nome,
+        String $icona
     ) {
         $this->nome = $nome;
-        // $this->icona = $icona;
+        $this->icona = $icona;
     }
 }

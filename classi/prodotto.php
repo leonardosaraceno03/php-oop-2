@@ -1,5 +1,5 @@
 <?php
-
+include_once __DIR__ . "/category.php";
 class prodotto
 {
 
